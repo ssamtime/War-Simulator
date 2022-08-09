@@ -2187,7 +2187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4c236cc3678794e82bc59723f7b7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
   layer:
   - serializedVersion: 2
     m_Bits: 64
@@ -2195,8 +2194,9 @@ MonoBehaviour:
     m_Bits: 8
   maxHealth: 0
   currentHealth: 100
-  Gauge: {fileID: 8929769554986717999}
   attack: 10
+  speed: 2
+  Gauge: {fileID: 8929769554986717999}
 --- !u!136 &7724971210139221293
 CapsuleCollider:
   m_ObjectHideFlags: 0
