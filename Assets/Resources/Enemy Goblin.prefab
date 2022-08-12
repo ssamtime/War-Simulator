@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 6133598288745444743}
   m_Layer: 6
   m_Name: Enemy Goblin
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,7 +303,7 @@ Animator:
   m_GameObject: {fileID: 258427234799594642}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 741f73214c8e59045b42ebac4be91444, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1ec0d0668bbcc90458e15c8d581f3be9, type: 2}
+  m_Controller: {fileID: 9100000, guid: f4f991e2960ad07428aab1f087da31b7, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -343,7 +343,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258427234799594642}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 1
